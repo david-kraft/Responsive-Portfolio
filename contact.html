@@ -20,8 +20,8 @@
             </ul>
         </nav>
     </header>
-    <article class="container"><!-- Define article width 960px; center enclosed content. -->
-        <div class="content"><!-- Use this to create padding all around the page-specific content -->
+    <div class="container"><!-- Define article width 960px; center enclosed content. -->
+        <article class="content"><!-- Use this to create padding all around the page-specific content -->
             <h1>Contact</h1>
             <form>
                 <p>Name<br />
@@ -36,45 +36,19 @@
                 <br />
                 <p><input type="submit" value="Submit"></p>
             </form>
-        </div>
-    </article>
+        </article>
+
+        <!-- Social media sidebar on right -->
+        <aside>
+            <h2>Connect with Me</h2>
+            <!-- Social media buttons ©popcornarts available at https://www.iconfinder.com/iconsets/social-media-special. Obtained and used under Creative Commons license. -->
+            <img class="social-btn" src="/assets/images/if_linkedin_2916264.png" alt="LinkedIn"> <img class="social-btn" src="/assets/images/if_github_2916248.png" alt="GitHub"><img class="social-btn" src="/assets/images/if_stackoverflow_2916290.png" alt="Stack Overflow">
+        </aside>
+    </div>
     <footer> <!-- Center enclosed content. -->
         <p>Copyright © David Kraft</p>
     </footer>
     </div>
 
-<style>
-article p {
-    margin-top: 10px;
-}
-
-input[type=text], input[type=email] {
-    width:100%;
-    border-style: solid;
-    border-width: 1px;
-    padding: 5px;
-    font-size: 11pt;
-    border-color: #dddddd;
-    box-sizing: border-box;
-}
-
-input.one-line {
-    resize: none;
-}
-
-input.multi-line {
-    height: 200px;
-}
-
-input[type=submit] {
-    width: auto;
-    box-sizing: border-box;
-    border: none;
-    padding: 10px 30px;
-    font-size: 12pt;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
-</style>
 </body>
 </html>

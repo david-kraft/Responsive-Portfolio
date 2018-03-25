@@ -21,8 +21,8 @@
             </ul>
         </nav>
     </header>
-    <article class="container"><!-- Define article width 960px; center enclosed content. -->
-        <div class="content"><!-- Use this to create padding all around the page-specific content -->
+    <div class="container"><!-- Define article width 960px; center enclosed content. -->
+        <article class="content"><!-- Use this to create padding all around the page-specific content -->
             <h1>Portfolio</h1>
             <div class="work">
                 <div class="caption">
@@ -54,43 +54,19 @@
                 </div>
                 <img src="assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors" />
             </div>
-        </div>
-    </article>
+        </article>
+
+        <!-- Social media sidebar on right -->
+        <aside>
+            <h2>Connect with Me</h2>
+            <!-- Social media buttons ©popcornarts available at https://www.iconfinder.com/iconsets/social-media-special. Obtained and used under Creative Commons license. -->
+            <img class="social-btn" src="/assets/images/if_linkedin_2916264.png" alt="LinkedIn"> <img class="social-btn" src="/assets/images/if_github_2916248.png" alt="GitHub"><img class="social-btn" src="/assets/images/if_stackoverflow_2916290.png" alt="Stack Overflow">
+        </aside>
+    </div>
     <footer> <!-- Define footer width 960px; center enclosed content. -->
         <p>Copyright © David Kraft</p>
     </footer>
     </div>
 
-<style>
-div.work {
-    display: inline-block;
-    width: 274px;
-    height: 205px;
-    margin: 28px 20px;
-    border: none;
-    position: relative;
-}
-
-div.work div.caption{
-    z-index: 2;
-    width: 100%;
-    background-color: #4aaaa5;
-    height: 60px;
-    position: absolute;
-    top: 138px
-}
-
-div.work h2 {
-    color: #ffffff;
-    font-size: 18pt;
-    text-align: center;
-    line-height: 60px;
-}
-
-div.work img {
-    z-index: 1;
-}
-
-</style>
 </body>
 </html>
